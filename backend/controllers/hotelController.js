@@ -39,7 +39,7 @@ exports.uploadHotelPictures = catchAsyncErrors(async (req, res, next) => {
         const pictureUri = getDataUri(picture);
 
         const myCloud = await cloudinary.uploader.upload(pictureUri.content, {
-            folder: '/spothotel/hotels',
+            folder: '/hotel_managment_system/hotels',
             crop: "scale",
         })
 

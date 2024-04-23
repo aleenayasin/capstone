@@ -1,5 +1,5 @@
 {
-    "name": "spothotel",
+    "name": "hotel_managment_system",
     "version": "1.0.0",
     "description": "",
     "main": "backend/server.js",
@@ -8,7 +8,7 @@
         "dev": "nodemon backend/server.js",
         "production": "npm install --prefix frontend && npm run build --prefix frontend"
     },
-    "author": "Tushar Biswas",
+    "author": "Aleena Yasin",
     "license": "ISC",
     "dependencies": {
         "bcryptjs": "^2.4.3",

@@ -49,7 +49,7 @@ const Navbar = () => {
     return (
         <header className="mx-auto px-4 md:px-10 lg:px-20 xl:px-48 z-[1300]">
             <nav className=" h-24 flex items-center justify-between relative">
-                <h3 onClick={handleLogoClick} className="text-red-400 text-3xl font-bold cursor-pointer">SpotHotel</h3>
+                <h3 onClick={handleLogoClick} className="text-red-400 text-3xl font-bold cursor-pointer">HotelManagmentSystem</h3>
                 <div className="">
                     <div onClick={handleClick}>
                         <span className="md:hidden">
